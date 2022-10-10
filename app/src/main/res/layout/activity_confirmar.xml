@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="353dp"
+        android:layout_height="593dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:baselineAligned="false"
+        app:cardBackgroundColor="#8BAFE6"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="false">
+
+        <LinearLayout
+            android:layout_width="343dp"
+            android:layout_height="590dp"
+            android:layout_gravity="center"
+            android:foregroundGravity="center_vertical"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_secondary"
+                android:layout_width="188dp"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_secondary"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/checkbox_on_background" />
+
+            <TableLayout
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="343dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center_vertical"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                    <TableRow
+                        android:layout_width="308dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/txt_campo1"
+                            android:layout_width="142dp"
+                            android:layout_height="wrap_content"
+                            android:autofillHints=""
+                            android:ems="10"
+                            android:text="@string/txt_campo1"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tvEjemploN"
+                            android:layout_width="143dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:text="@string/tvEjemploN" />
+
+                    </TableRow>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="343dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center_vertical"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/txt_campo2"
+                            android:layout_width="127dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txt_campo2"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tvEjemploD"
+                            android:layout_width="142dp"
+                            android:layout_height="wrap_content"
+                            android:autofillHints=""
+                            android:ems="10"
+                            android:text="@string/tvEjemploD"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+                    </TableRow>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="343dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center_vertical"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                    <TableRow
+                        android:layout_width="317dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="bold">
+
+                        <TextView
+                            android:id="@+id/txt_campo3"
+                            android:layout_width="105dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txt_campo3"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tvEjemploT"
+                            android:layout_width="127dp"
+                            android:layout_height="wrap_content"
+                            android:autofillHints=""
+                            android:ems="10"
+                            android:text="@string/tvEjemploT"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+                    </TableRow>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="343dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center_vertical"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                    <TableRow
+                        android:layout_width="305dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/txt_email"
+                            android:layout_width="116dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txt_email"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tvEjemploC"
+                            android:layout_width="159dp"
+                            android:layout_height="wrap_content"
+                            android:autofillHints=""
+                            android:ems="10"
+                            android:text="@string/tvEjemploC"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+                    </TableRow>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="343dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center_vertical"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:gravity="bottom|center|center_horizontal|center_vertical">
+
+                    <TextView
+                        android:id="@+id/txt_Descripcion"
+                        android:layout_width="136dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_Descripcion"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/tvEjemploDes"
+                        android:layout_width="167dp"
+                        android:layout_height="89dp"
+                        android:autofillHints=""
+                        android:ems="10"
+                        android:textSize="20sp"
+                        android:gravity="top|center"
+                        android:text="@string/tvEjemploDes"
+                        android:minHeight="25dp" />
+                </TableRow>
+        </LinearLayout>
+
+            </TableLayout>
+
+            <Button
+                android:id="@+id/btnAnterior"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/btnAnterior"
+                android:onClick="Anterior"
+                android:textSize="20sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#000000"
+                app:strokeColor="@color/black" />
+
+            <Button
+                android:id="@+id/btnAcaptar"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/btnAceptar"
+                android:onClick="Aceptar"
+                android:textSize="20sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#000000"
+                app:strokeColor="@color/black" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

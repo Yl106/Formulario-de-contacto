@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Formulario de contacto</string>
+    <string name="txt_initial">Datos de registro</string>
+    <string name="txt_secondary">Confirmar datos</string>
+    <string name="txt_campo1">Nombres completos</string>
+    <string name="txt_campo3">Télefono</string>
+    <string name="txt_campo2">Fecha de nacimiento</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_Descripcion">Descripción</string>
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="btnAnterior">Editar datos</string>
+    <string name="btnAceptar">Aceptar</string>
+    <string name="mensaje">Datos confirmados</string>
+    <string name="texto_accion">Cerrar</string>
+    <string name="tvSeleccionar">📅</string>
+    <string name="todo">TODO</string>
+    //Prueba
+    <string name="tvEjemploN">Pablo Gomez Pérez</string>
+    <string name="tvEjemploD">12/09/2000</string>
+    <string name="tvEjemploT">3134341630</string>
+    <string name="tvEjemploC">pablo.gomez@gmail.com</string>
+    <string name="tvEjemploDes">Administrador de documentos empresariales</string>
+</resources>
